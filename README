@@ -1,0 +1,10 @@
+# Criminal-Records-DB
+
+
+It is quite difficult to find insights quickly within intricate, sometimes very large, networks of phone records data. 
+The first step of investigation is wanting to leverage the model of the data model. The data, phone operators provide law enforcement with, is often in tabular form. 
+Phone record data constitute a network of devices linked together via calls. For years investigators had to work with the data as tables and rows because the technology in use, relational databases work in this way. In this model, we will use three different databases to run the queries and see the results and their execution time.
+
+We are going to use three types of databases in for this model. They are Mongdb, Cassandra and Mariadb. 
+
+We are using this Database to use the phone call data to identify the criminal activities connected by phone calls. From a list of calls, it would be easier for us to infer a network.![image](https://user-images.githubusercontent.com/102923167/203543385-cb9a0fb2-adf7-4ae7-be2a-f7ab7bc5860b.png)
