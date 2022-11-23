@@ -7,4 +7,9 @@ Phone record data constitute a network of devices linked together via calls. For
 
 We are going to use three types of databases in for this model. They are Mongdb, Cassandra and Mariadb. 
 
-We are using this Database to use the phone call data to identify the criminal activities connected by phone calls. From a list of calls, it would be easier for us to infer a network.![image](https://user-images.githubusercontent.com/102923167/203543385-cb9a0fb2-adf7-4ae7-be2a-f7ab7bc5860b.png)
+We are using this Database to use the phone call data to identify the criminal activities connected by phone calls. From a list of calls, it would be easier for us to infer a network.
+
+For this article, We prepared a dummy dataset using ‘Mockaroo’ website. That data is in a spreadsheet format and contains records of 60.000
+
+
+Now that we gathered the data and import it in the CSV format, we are going to use three databases to compare the model. We will use MONGODB, CASSANDRA and MARIADB to retrieve the results we want from the model to detect distinct queries. 
